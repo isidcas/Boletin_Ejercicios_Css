@@ -1,0 +1,14 @@
+#galeria {
+    display: grid;/*para usar grid*/
+    grid-template-columns: repeat(3, 1fr); /*define el número de columnas y su tamaño. En este caso, estamos creando 3 columnas con un ancho igual de 1 fracción de la pantalla (1fr).*/
+    grid-gap: 20px;/* define el espacio entre cada imagen. En este caso, hay 20px de espacio entre cada imagen*/
+    align-items: center;
+    justify-items: center;
+}
+
+#galeria img{
+
+    padding: 0.5em;
+    margin: 10px;
+    border: 0.5px solid grey;
+}
