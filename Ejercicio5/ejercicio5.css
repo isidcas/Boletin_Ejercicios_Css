@@ -17,7 +17,7 @@ pequeño	padding	de .2em.*/
 
 #secundario h2{
     background-color: #db905c;
-    padding: 2em;
+    padding: 1em; /*He puesto padding de 1em porque si no se descolocaba*/
 }
 
 /*4. El	 fondo	 del	 elemento #menu se	 construye	 mediante	 una	 pequeña	 imagen	
@@ -33,4 +33,11 @@ elemento <h1> contenido	en	el	elemento #cabecera (la	imagen	se	llama logo.gif).*
 #cabecera h1{
 
 background-image: url(logo.gif);
+
 }
+
+/*Escondemos el span para que no se vea*/
+#cabecera span{
+    visibility: hidden;
+    
+} 
